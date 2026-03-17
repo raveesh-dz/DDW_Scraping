@@ -1,0 +1,5 @@
+# DDW Conference Schedule Scraper — Python dependencies
+# After pip install, run: playwright install chromium
+
+playwright>=1.40.0
+openpyxl>=3.1.0
