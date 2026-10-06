@@ -1,0 +1,185 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - link "company logo" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "company logo" [ref=e13]
+    - generic [ref=e14]:
+      - button "Register" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Register
+        - img [ref=e18]
+      - button "Sign in" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: Sign in
+  - generic [ref=e24]:
+    - generic [ref=e28]:
+      - link "Education and Scientific Programs" [ref=e29] [cursor=pointer]:
+        - /url: /education
+      - paragraph [ref=e30]: ›
+      - paragraph [ref=e31] [cursor=pointer]: ...
+      - paragraph [ref=e32]: ›
+      - paragraph [ref=e33]: "NSC22 The Learner in the Loop: How Artificial Intelligence Is Changing Pulmonary and Critical Care Education"
+    - generic [ref=e34]:
+      - generic [ref=e42]:
+        - 'heading "NSC22 The Learner in the Loop: How Artificial Intelligence Is Changing Pulmonary and Critical Care Education" [level=1] [ref=e44]'
+        - paragraph [ref=e46]: Networking Super Center Learning Event
+      - generic [ref=e49]:
+        - button "Add to Agenda" [ref=e51] [cursor=pointer]:
+          - img [ref=e53]
+          - generic [ref=e55]: Add to Agenda
+        - button "Add Note" [ref=e57] [cursor=pointer]:
+          - img [ref=e59]
+          - generic [ref=e61]: Add Note
+        - button "Share" [ref=e63] [cursor=pointer]:
+          - img [ref=e65]
+          - generic [ref=e67]: Share
+        - button "Bookmark" [ref=e69] [cursor=pointer]:
+          - img [ref=e71]
+          - generic [ref=e73]: Bookmark
+    - generic [ref=e75]:
+      - generic [ref=e77]:
+        - generic [ref=e80]:
+          - heading "Description" [level=4] [ref=e82]
+          - generic [ref=e83]: Artificial intelligence is rapidly reshaping how pulmonary and critical care clinicians are trained, shifting education from standardized models toward adaptive, learner-centered approaches. This session explores how AI can individualize learning pathways, augment procedural training through real-time feedback, and redefine competency assessment. Faculty will also address critical considerations around psychological safety, equity, and learner agency in AI-enabled environments. Through practical examples and forward-looking insights, attendees will gain a framework for integrating AI into education while preserving the human elements essential to effective training and professional identity formation.
+        - generic [ref=e84]:
+          - heading "Presentations" [level=4] [ref=e87]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - paragraph [ref=e92]: Wednesday, May 20, 2026
+              - generic [ref=e94]:
+                - paragraph [ref=e96]: 7:00 AM – 8:00 AM (EDT)
+                - generic [ref=e97]:
+                  - paragraph [ref=e98] [cursor=pointer]: Facilitator/Moderator
+                  - button [ref=e99] [cursor=pointer]:
+                    - img [ref=e101]
+                - paragraph [ref=e109] [cursor=pointer]: Laura Frye MD, University of Utah
+            - generic [ref=e112]:
+              - paragraph [ref=e114]: 7:00 AM – 8:00 AM (EDT)
+              - generic [ref=e115]:
+                - paragraph [ref=e116] [cursor=pointer]: Speaker/Panelist
+                - button [ref=e117] [cursor=pointer]:
+                  - img [ref=e119]
+              - generic [ref=e122]:
+                - generic [ref=e126]: HB
+                - paragraph [ref=e127] [cursor=pointer]: Hassan K. Bencheqroun MD, IQVIA Biotech
+            - generic [ref=e130]:
+              - paragraph [ref=e132]: 7:00 AM – 8:00 AM (EDT)
+              - generic [ref=e133]:
+                - paragraph [ref=e134] [cursor=pointer]: Speaker/Panelist
+                - button [ref=e135] [cursor=pointer]:
+                  - img [ref=e137]
+              - generic [ref=e140]:
+                - generic [ref=e144]: SF
+                - paragraph [ref=e145] [cursor=pointer]: Saadia A. Faiz MD, ATSF, FCCP, The University of Texas MD Anderson Cancer Center
+        - generic [ref=e150]:
+          - paragraph [ref=e152]: Session Type
+          - paragraph [ref=e155] [cursor=pointer]: Networking Super Center Learning Event
+        - generic [ref=e160]:
+          - paragraph [ref=e162]: Audience type
+          - generic [ref=e163]:
+            - paragraph [ref=e165] [cursor=pointer]: Advanced Practice Providers
+            - paragraph [ref=e167] [cursor=pointer]: Basic Science Researchers
+            - paragraph [ref=e169] [cursor=pointer]: Clinical Researchers
+            - paragraph [ref=e171] [cursor=pointer]: Clinicians
+            - paragraph [ref=e173] [cursor=pointer]: Early Career Professionals (Basic and Translational Science)
+            - paragraph [ref=e175] [cursor=pointer]: Early Career Professionals (Critical Care)
+            - paragraph [ref=e177] [cursor=pointer]: Early Career Professionals (Medical Education)
+            - paragraph [ref=e179] [cursor=pointer]: Early Career Professionals (Pediatrics)
+            - paragraph [ref=e181] [cursor=pointer]: Early Career Professionals (Pulmonary)
+            - paragraph [ref=e183] [cursor=pointer]: Early Career Professionals (Sleep)
+            - paragraph [ref=e185] [cursor=pointer]: Interprofessionals
+            - paragraph [ref=e187] [cursor=pointer]: Interventional Pulmonologists
+            - paragraph [ref=e189] [cursor=pointer]: Medical Educators
+            - paragraph [ref=e191] [cursor=pointer]: Mid-Career Professionals
+            - paragraph [ref=e193] [cursor=pointer]: Nurses
+            - paragraph [ref=e195] [cursor=pointer]: Other
+            - paragraph [ref=e197] [cursor=pointer]: Respiratory/Occupational Therapists
+        - generic [ref=e202]:
+          - paragraph [ref=e204]: Topics
+          - generic [ref=e205]:
+            - paragraph [ref=e207] [cursor=pointer]: Artificial Intelligence
+            - paragraph [ref=e209] [cursor=pointer]: Other Topics
+      - generic [ref=e211]:
+        - generic [ref=e213]:
+          - heading "Information" [level=4] [ref=e214]
+          - generic [ref=e215]:
+            - img [ref=e217]
+            - paragraph [ref=e219]: Wednesday, May 20, 2026
+          - generic [ref=e220]:
+            - img [ref=e223]
+            - paragraph [ref=e225]: 7:00 AM – 8:00 AM (EDT)
+          - generic [ref=e226]:
+            - img [ref=e228]
+            - paragraph [ref=e230]: Learning Studio, Hall C (Level II, OCCC West)
+          - button "Export to Native Calendar" [ref=e232] [cursor=pointer]:
+            - generic [ref=e233]: Export to Native Calendar
+        - generic [ref=e235]:
+          - heading "Chairs" [level=4] [ref=e236]
+          - generic [ref=e244] [cursor=pointer]:
+            - generic [ref=e245]: Laura Frye, MD
+            - generic [ref=e246]: University of Utah
+        - generic [ref=e248]:
+          - heading "Faculty" [level=4] [ref=e249]
+          - generic [ref=e250]:
+            - generic [ref=e252] [cursor=pointer]:
+              - generic [ref=e256]: HB
+              - generic [ref=e257]:
+                - generic [ref=e258]: Hassan K. Bencheqroun, MD
+                - generic [ref=e259]: IQVIA Biotech
+            - generic [ref=e261] [cursor=pointer]:
+              - generic [ref=e265]: SF
+              - generic [ref=e266]:
+                - generic [ref=e267]: Saadia A. Faiz, MD, ATSF, FCCP
+                - generic [ref=e268]: The University of Texas MD Anderson Cancer Center
+  - generic [ref=e270]:
+    - generic [ref=e271]:
+      - generic [ref=e272]:
+        - paragraph [ref=e273]: Resources
+        - link "ATS Conference News" [ref=e274] [cursor=pointer]:
+          - /url: https://www.atsconferencenews.org/
+          - paragraph [ref=e275]: ATS Conference News
+        - link "ATS Research Program" [ref=e276] [cursor=pointer]:
+          - /url: https://research.thoracic.org/index.php
+          - paragraph [ref=e277]: ATS Research Program
+        - link "Conference Website" [ref=e278] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/
+          - paragraph [ref=e279]: Conference Website
+      - generic [ref=e280]:
+        - paragraph [ref=e281]: Important Links
+        - link "Register" [ref=e282] [cursor=pointer]:
+          - /url: https://site.thoracic.org/conference/attendees/register
+          - paragraph [ref=e283]: Register
+        - link "Become a Donor" [ref=e284] [cursor=pointer]:
+          - /url: https://research.thoracic.org/donate/index.php
+          - paragraph [ref=e285]: Become a Donor
+      - generic [ref=e286]:
+        - paragraph [ref=e287]: Legal
+        - link "Terms of Use" [ref=e288] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/terms-of-use
+          - paragraph [ref=e289]: Terms of Use
+        - link "Privacy Policy" [ref=e290] [cursor=pointer]:
+          - /url: https://www.thoracic.org/privacy-policy.php
+          - paragraph [ref=e291]: Privacy Policy
+        - link "Code of Conduct" [ref=e292] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/attendees/code-of-conduct.php
+          - paragraph [ref=e293]: Code of Conduct
+        - link "Cookie Policy" [ref=e294] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/privacy-policy#use-of-cookies
+          - paragraph [ref=e295]: Cookie Policy
+      - generic [ref=e297]:
+        - link [ref=e298] [cursor=pointer]:
+          - /url: https://twitter.com/atscommunity
+          - img [ref=e301]
+        - link [ref=e303] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/american-thoracic-society_2/
+          - img [ref=e306]
+        - link [ref=e308] [cursor=pointer]:
+          - /url: https://www.instagram.com/atscommunity/
+          - img [ref=e311]
+        - link [ref=e313] [cursor=pointer]:
+          - /url: https://www.facebook.com/americanthoracic
+          - img [ref=e316]
+        - link [ref=e318] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCzbly6r1MKUnO0KfrD__yqg
+          - img [ref=e321]
+    - generic [ref=e324]: Powered by Sherpa · All rights reserved © 2026

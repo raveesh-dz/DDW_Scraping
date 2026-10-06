@@ -1,0 +1,251 @@
+- generic [ref=e1]:
+  - img "Event Banner" [ref=e7]
+  - generic [ref=e8]:
+    - list [ref=e10]:
+      - listitem:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: "#view1"
+      - listitem:
+        - link "Schedule" [ref=e12] [cursor=pointer]:
+          - /url: "#view2"
+      - listitem:
+        - link "Help" [ref=e13] [cursor=pointer]:
+          - /url: "#view3"
+    - iframe [active] [ref=e31]:
+      - generic [ref=f2e6]:
+        - generic [ref=f2e8]:
+          - generic "Show/Hide Sidebar" [ref=f2e9] [cursor=pointer]
+          - generic [ref=f2e12]:
+            - generic [ref=f2e14] [cursor=pointer]: Day
+            - generic [ref=f2e15] [cursor=pointer]: Track
+            - generic [ref=f2e16] [cursor=pointer]: Format
+            - generic [ref=f2e17] [cursor=pointer]: Society
+            - generic [ref=f2e18] [cursor=pointer]: CME
+            - generic [ref=f2e19] [cursor=pointer]: Audience &/or Science Type
+        - generic [ref=f2e20]:
+          - generic [ref=f2e27]:
+            - generic [ref=f2e29] [cursor=pointer]: search
+            - textbox [ref=f2e30]:
+              - /placeholder: Search
+          - generic [ref=f2e33]:
+            - generic [ref=f2e34] [cursor=pointer]:
+              - generic [ref=f2e35]: Fri
+              - generic [ref=f2e36]: "1"
+            - generic [ref=f2e37] [cursor=pointer]:
+              - generic [ref=f2e38]: Sat
+              - generic [ref=f2e39]: "2"
+            - generic [ref=f2e40] [cursor=pointer]:
+              - generic [ref=f2e41]: Sun
+              - generic [ref=f2e42]: "3"
+            - generic [ref=f2e43] [cursor=pointer]:
+              - generic [ref=f2e44]: Mon
+              - generic [ref=f2e45]: "4"
+            - generic [ref=f2e46] [cursor=pointer]:
+              - generic [ref=f2e47]: Tue
+              - generic [ref=f2e48]: "5"
+          - generic [ref=f2e49]:
+            - generic:
+              - generic:
+                - generic [ref=f2e68] [cursor=pointer]:
+                  - generic [ref=f2e69]: DDW
+                  - generic [ref=f2e70]: "Altered Anatomy ERCP: A Masterclass $$$ (BC15)"
+                  - generic [ref=f2e71]: 6:30AM-7:45AM May 5 (Central)
+                - generic [ref=f2e72] [cursor=pointer]:
+                  - generic [ref=f2e73]: DDW
+                  - generic [ref=f2e74]: "Debate: Should Patients with Non-Dysplastic Barrett’s Esophagus be Routinely Recommended to Receive Endoscopic Surveillance? $$$ (BC16)"
+                  - generic [ref=f2e75]: 6:30AM-7:45AM May 5 (Central)
+                - generic [ref=f2e76] [cursor=pointer]:
+                  - generic [ref=f2e77]: DDW
+                  - generic [ref=f2e78]: "Endoscopic Gastrojejunostomy: Candidacy, Best Time, and the Right Approach $$$ (BC17)"
+                  - generic [ref=f2e79]: 6:30AM-7:45AM May 5 (Central)
+                - generic [ref=f2e80] [cursor=pointer]:
+                  - generic [ref=f2e81]: DDW
+                  - generic [ref=f2e82]: Food as Medicine for GI Conditions $$$ (BC18)
+                  - generic [ref=f2e83]: 6:30AM-7:45AM May 5 (Central)
+                - generic [ref=f2e84] [cursor=pointer]:
+                  - generic [ref=f2e85]: DDW
+                  - generic [ref=f2e86]: Identifying MASLD Patients for Resmetirom Treatment and Monitoring on Follow Up $$$ (BC19)
+                  - generic [ref=f2e87]: 6:30AM-7:45AM May 5 (Central)
+                - generic [ref=f2e88] [cursor=pointer]:
+                  - generic [ref=f2e89]: DDW
+                  - generic [ref=f2e90]: "Track that Bleed: Appropriate Modalities to Diagnose Occult Blood Loss $$$ (BC20)"
+                  - generic [ref=f2e91]: 6:30AM-7:45AM May 5 (Central)
+                - generic [ref=f2e92] [cursor=pointer]:
+                  - generic [ref=f2e93]: AASLD
+                  - generic [ref=f2e94]: "Beyond the Bot: Provider and Patient Perspectives of AI Applications in Gastroenterology and Hepatology Clinical Practice"
+                  - generic [ref=f2e95]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e96] [cursor=pointer]:
+                  - generic [ref=f2e97]: AASLD
+                  - generic [ref=f2e98]: Updates in Practice Guidelines and Expert Practice Opinion (EXPO)
+                  - generic [ref=f2e99]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e100] [cursor=pointer]:
+                  - generic [ref=f2e101]: AGA
+                  - generic [ref=f2e102]: "AGA-Rome Foundation Lecture — Rome V: What’s New and Why? (LIVE STREAM SESSION)"
+                  - generic [ref=f2e103]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e104] [cursor=pointer]:
+                  - generic [ref=f2e105]: AGA
+                  - generic [ref=f2e106]: FDA Town Hall
+                  - generic [ref=f2e107]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e108] [cursor=pointer]:
+                  - generic [ref=f2e109]: AGA
+                  - generic [ref=f2e110]: "From Guidelines to the Bedside: Practical Strategies for APPs and GI Fellows to Deliver Consistent, Evidence-Based Care"
+                  - generic [ref=f2e111]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e112] [cursor=pointer]:
+                  - generic [ref=f2e113]: AGA
+                  - generic [ref=f2e114]: Frontiers of Gastroenterological Emergencies (AGA-JSGE Joint Symposium) (LIVE STREAM SESSION)
+                  - generic [ref=f2e115]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e116] [cursor=pointer]:
+                  - generic [ref=f2e117]: AGA
+                  - generic [ref=f2e118]: "Hirano Symposium: Evolving Paradigms in Eosinophilic Esophagitis: Advances in Clinical Diagnosis and Management"
+                  - generic [ref=f2e119]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e120] [cursor=pointer]:
+                  - generic [ref=f2e121]: AGA
+                  - generic [ref=f2e122]: "John S. Fordtran, MD, Lecture — Bile Acid Diarrhea: What's New?"
+                  - generic [ref=f2e123]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e124] [cursor=pointer]:
+                  - generic [ref=f2e125]: AGA
+                  - generic [ref=f2e126]: "To Feed or Not to Feed: Nutrition in Pancreatic Diseases"
+                  - generic [ref=f2e127]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e128] [cursor=pointer]:
+                  - generic [ref=f2e129]: AGA
+                  - generic [ref=f2e130]: Unraveling the Biology of Refractory Inflammatory Bowel Disease
+                  - generic [ref=f2e131]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e132] [cursor=pointer]:
+                  - generic [ref=f2e133]: ASGE
+                  - generic [ref=f2e134]: "AI-Driven Gastroenterology: Transforming Endoscopy, Diagnosis, and Training"
+                  - generic [ref=f2e135]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e136] [cursor=pointer]:
+                  - generic [ref=f2e137]: ASGE
+                  - generic [ref=f2e138]: "ASGE & Inter-American Society of Digestive Endoscopy (SIED): Endoscopy Tips from the Experts (Tips de Endoscopia de los Expertos)"
+                  - generic [ref=f2e139]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e140] [cursor=pointer]:
+                  - generic [ref=f2e141]: ASGE
+                  - generic [ref=f2e142]: Innovation and Updates In The Management of IBD Complications (LIVE STREAM SESSION)
+                  - generic [ref=f2e143]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e144] [cursor=pointer]:
+                  - generic [ref=f2e145]: ASGE
+                  - generic [ref=f2e146]: "International-Mongolian Society of Digestive Endoscopy (MSDE): From Struggles to Strategies: Partnering for Endoscopic Advancement in Mongolia"
+                  - generic [ref=f2e147]: 8:00AM-9:00AM May 5 (Central)
+                - generic [ref=f2e148] [cursor=pointer]:
+                  - generic [ref=f2e149]: SSAT
+                  - generic [ref=f2e150]: Legends of GI Surgery
+                  - generic [ref=f2e151]: 8:00AM-9:00AM May 5 (Central)
+                - generic [ref=f2e152] [cursor=pointer]:
+                  - generic [ref=f2e153]: DDW
+                  - generic [ref=f2e154]: Advances in the Management of Cholangiocarcinoma
+                  - generic [ref=f2e155]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e156] [cursor=pointer]:
+                  - generic [ref=f2e157]: DDW
+                  - generic [ref=f2e158]: Clinical Insights in Celiac Disease
+                  - generic [ref=f2e159]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e160] [cursor=pointer]:
+                  - generic [ref=f2e161]: DDW
+                  - generic [ref=f2e162]: Controversies in Managing Pancreatic Cysts (LIVE STREAM SESSION)
+                  - generic [ref=f2e163]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e164] [cursor=pointer]:
+                  - generic [ref=f2e165]: DDW
+                  - generic [ref=f2e166]: DDW Clinical Science Late-Breaking Abstract Session
+                  - generic [ref=f2e167]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e168] [cursor=pointer]:
+                  - generic [ref=f2e169]: DDW
+                  - generic [ref=f2e170]: EUS Innovations in Complex GI Management
+                  - generic [ref=f2e171]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e172] [cursor=pointer]:
+                  - generic [ref=f2e173]: DDW
+                  - generic [ref=f2e174]: "GERD Quickshots: What’s New From Presentation to Management"
+                  - generic [ref=f2e175]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e176] [cursor=pointer]:
+                  - generic [ref=f2e177]: DDW
+                  - generic [ref=f2e178]: "IBD: Controlled Clinical Trials 2"
+                  - generic [ref=f2e179]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e180] [cursor=pointer]:
+                  - generic [ref=f2e181]: DDW
+                  - generic [ref=f2e182]: Mechanisms Underlying Approaches to Therapy in Esophageal Cancer
+                  - generic [ref=f2e183]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e184] [cursor=pointer]:
+                  - generic [ref=f2e185]: DDW
+                  - generic [ref=f2e186]: Neuroimmune And Cell-Cell Interactions
+                  - generic [ref=f2e187]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e188] [cursor=pointer]:
+                  - generic [ref=f2e189]: DDW
+                  - generic [ref=f2e190]: "Noninvasive Tools for MASLD/MASH: Real-World Performance, Pitfalls, and Clinical Integration"
+                  - generic [ref=f2e191]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e192] [cursor=pointer]:
+                  - generic [ref=f2e193]: DDW
+                  - generic [ref=f2e194]: Omics, System Biology and Mechanics in Colonic Barrier Function, Inflammation, and Fibrosis
+                  - generic [ref=f2e195]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e196] [cursor=pointer]:
+                  - generic [ref=f2e197]: DDW
+                  - generic [ref=f2e198]: "Stomach and Duodenum Potpourri 3: Illuminating the Gastric Cancer Continuum: AI‑Driven Insights, Immunotherapy Decisions, and Precision Surveillance"
+                  - generic [ref=f2e199]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e200] [cursor=pointer]:
+                  - generic [ref=f2e201]: DDW
+                  - generic [ref=f2e202]: Surgery Quick Shot Session III
+                  - generic [ref=f2e203]: 8:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e204] [cursor=pointer]:
+                  - generic [ref=f2e205]: SSAT
+                  - generic [ref=f2e206]: SSAT Annual Business Meeting
+                  - generic [ref=f2e207]: 9:00AM-9:30AM May 5 (Central)
+                - generic [ref=f2e208] [cursor=pointer]:
+                  - generic [ref=f2e209]: ASGE
+                  - generic [ref=f2e210]: EMR vs ESD
+                  - generic [ref=f2e211]: 9:30AM-10:30AM May 5 (Central)
+                - generic [ref=f2e212] [cursor=pointer]:
+                  - generic [ref=f2e213]: ASGE
+                  - generic [ref=f2e214]: Endoscopic Resection Hands-On Workshop $$$ (HW6)
+                  - generic [ref=f2e215]: 9:30AM-11:30AM May 5 (Central)
+                - generic [ref=f2e216] [cursor=pointer]:
+                  - generic [ref=f2e217]: AASLD
+                  - generic [ref=f2e218]: "Serum and Imaging Biomarkers Driving Liver Disease: Moving Beyond Biopsy"
+                  - generic [ref=f2e219]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e220] [cursor=pointer]:
+                  - generic [ref=f2e221]: AASLD
+                  - generic [ref=f2e222]: "Stump the Hepatologist: The Art and Science of Assessing Clinical Cases"
+                  - generic [ref=f2e223]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e224] [cursor=pointer]:
+                  - generic [ref=f2e225]: AGA
+                  - generic [ref=f2e226]: 2026 AGA Guideline Highlights
+                  - generic [ref=f2e227]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e228] [cursor=pointer]:
+                  - generic [ref=f2e229]: AGA
+                  - generic [ref=f2e230]: Artificial Intelligence in the Diagnosis and Management of Pancreatic Disorders
+                  - generic [ref=f2e231]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e232] [cursor=pointer]:
+                  - generic [ref=f2e233]: AGA
+                  - generic [ref=f2e234]: "Emerging Strategies: Non-Traditional Funding to Advance Health Disparities Research (LIVE STREAM SESSION)"
+                  - generic [ref=f2e235]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e236] [cursor=pointer]:
+                  - generic [ref=f2e237]: AGA
+                  - generic [ref=f2e238]: "Food For Thought: Dietary Management of Common GI Disorders"
+                  - generic [ref=f2e239]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e240] [cursor=pointer]:
+                  - generic [ref=f2e241]: AGA
+                  - generic [ref=f2e242]: "From Creation to Stimulation of the ENS: Implications for Motility and Pain"
+                  - generic [ref=f2e243]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e244] [cursor=pointer]:
+                  - generic [ref=f2e245]: AGA
+                  - generic [ref=f2e246]: "Gastric Varices: Beta Blockers, BRTO and Beyond - Update on Managing Gastric Varices"
+                  - generic [ref=f2e247]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e248] [cursor=pointer]:
+                  - generic [ref=f2e249]: AGA
+                  - generic [ref=f2e250]: "Negative Testing, Positive Suspicion: Approach to Unresolved Hereditary GI Cancer Syndrome Cases (LIVE STREAM SESSION)"
+                  - generic [ref=f2e251]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e252] [cursor=pointer]:
+                  - generic [ref=f2e253]: AGA
+                  - generic [ref=f2e254]: Tuning the Gut Microbiome Through Diet
+                  - generic [ref=f2e255]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e256] [cursor=pointer]:
+                  - generic [ref=f2e257]: ASGE
+                  - generic [ref=f2e258]: "ASGE & Japanese Gastroenterological Endoscopy Society (JGES) Joint Session: New Paradigm of Gastrointestinal Endoscopic Diagnosis and Management; IEE, AI and Beyond"
+                  - generic [ref=f2e259]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e260] [cursor=pointer]:
+                  - generic [ref=f2e261]: ASGE
+                  - generic [ref=f2e262]: The Next Horizon in EUS From Diagnosis to Interventions (LIVE STREAM SESSION)
+                  - generic [ref=f2e263]: 10:00AM-11:30AM May 5 (Central)
+                - generic [ref=f2e264] [cursor=pointer]:
+                  - generic [ref=f2e265]: SSAT
+                  - generic [ref=f2e266]: "SSAT-ISDS Joint Symposium: Tricks of the Trade - Common and Challenging Cases"
+                  - generic [ref=f2e267]: 10:00AM-11:30AM May 5 (Central)
+    - heading "Powered by ΛTIV Software" [level=1] [ref=e20]:
+      - link "Powered by ΛTIV Software" [ref=e21] [cursor=pointer]:
+        - /url: https://ativsoftware.com/?utm_source=DDWLITE26&utm_medium=planner&utm_campaign=ativurl_DDWLITE26

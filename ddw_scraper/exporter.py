@@ -145,12 +145,19 @@ def write_excel(rows: list[dict], path) -> None:
         for r in day_rows:
             subs = r.get("sub_sessions") or []
 
-            # Sessions with no sub-sessions produce a single row
+            # Sessions with no sub-sessions produce a single row.
+            # Tags come from the pre-computed _session_kw dict (session-level
+            # fields only, since there is no sub-session name to add).
             if not subs:
+                session_kw = r.get("_session_kw", {})
                 subs = [{
-                    "name":  r.get("session_name", ""),
-                    "start": r.get("start_time", ""),
-                    "end":   r.get("end_time", ""),
+                    "name":         r.get("session_name", ""),
+                    "start":        r.get("start_time", ""),
+                    "end":          r.get("end_time", ""),
+                    "indication":   session_kw.get("Indication", ""),
+                    "company":      session_kw.get("Company", ""),
+                    "product_name": session_kw.get("Product Name", ""),
+                    "moa":          session_kw.get("MOA", ""),
                 }]
 
             n_subs = len(subs)
@@ -160,12 +167,16 @@ def write_excel(rows: list[dict], path) -> None:
                 ws.row_dimensions[current_row].height = _DATA_HEIGHT
                 is_first = sub_idx == 0
 
-                # Per-column values for this Excel row
+                # Per-column values for this Excel row.
+                # Keyword tags (indication, company, product_name, moa) are
+                # read from the sub-session dict so each row carries only the
+                # keywords that matched session-level fields OR that specific
+                # sub-session's own name — not keywords from other sub-sessions.
                 values = {
-                    "indication":    r.get("indication", ""),
-                    "company":       r.get("company", ""),
-                    "product_name":  r.get("product_name", ""),
-                    "moa":           r.get("moa", ""),
+                    "indication":    sub.get("indication", ""),
+                    "company":       sub.get("company", ""),
+                    "product_name":  sub.get("product_name", ""),
+                    "moa":           sub.get("moa", ""),
                     "track":         r.get("track", ""),
                     "science_type":  r.get("science_type", ""),
                     # Session-level fields — only on the first sub-session row

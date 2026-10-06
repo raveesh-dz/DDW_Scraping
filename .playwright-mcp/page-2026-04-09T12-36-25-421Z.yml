@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - text: DDWLITE26
+    - generic [ref=e4]: Loading...
+  - generic [ref=e5]:
+    - img "Sponsor Image"
+  - img "Event Banner" [ref=e7]
+  - generic [ref=e8]:
+    - list [ref=e10]:
+      - listitem:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: "#view1"
+      - listitem:
+        - link "Schedule" [ref=e12] [cursor=pointer]:
+          - /url: "#view2"
+      - listitem:
+        - link "Help" [ref=e13] [cursor=pointer]:
+          - /url: "#view3"
+    - generic [ref=e14]:
+      - generic: Loading...
+      - iframe [ref=e18]:
+        
+    - heading "Powered by ΛTIV Software" [level=1] [ref=e20]:
+      - link "Powered by ΛTIV Software" [ref=e21] [cursor=pointer]:
+        - /url: https://ativsoftware.com/?utm_source=DDWLITE26&utm_medium=planner&utm_campaign=ativurl_DDWLITE26
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: This site uses cookies to improve your experience.
+      - button "Accept" [ref=e24] [cursor=pointer]
+      - generic [ref=e25]:
+        - link "Learn More" [ref=e26] [cursor=pointer]:
+          - /url: https://www.ativsoftware.com/legal/cookie-policy/?utm_source=DDWLITE26&utm_medium=planner&utm_campaign=ativurl_DDWLITE26
+        - text: ·
+        - link "Privacy Policy" [ref=e27] [cursor=pointer]:
+          - /url: https://www.ativsoftware.com/legal/privacy-policy/

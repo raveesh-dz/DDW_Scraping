@@ -129,9 +129,13 @@ def _build_row(
     date_str: str,
     region: str,
     detail: dict,
-    keyword_matches: dict,
 ) -> dict:
-    """Assemble a single session row dict from its components."""
+    """Assemble a single session row dict from its components.
+
+    Keyword tags are stored per sub-session (in each sub dict) rather than at
+    the session level.  For sessions with no sub-sessions, ``detail["_session_kw"]``
+    holds the tags for the single synthetic row the exporter will produce.
+    """
     return {
         "day_label": day_label,
         "session_name": session_name,
@@ -144,11 +148,8 @@ def _build_row(
         "society": detail["society"],
         "science_type": detail["science_type"],
         "notes": "",
-        "indication": keyword_matches.get("Indication", ""),
-        "company": keyword_matches.get("Company", ""),
-        "product_name": keyword_matches.get("Product Name", ""),
-        "moa": keyword_matches.get("MOA", ""),
         "sub_sessions": detail["sub_sessions"],
+        "_session_kw": detail.get("_session_kw", {}),
     }
 
 
@@ -191,18 +192,34 @@ def _scrape_cell(
             f"Presentations={len(detail['sub_sessions'])}"
         )
 
-    # Collect all text fields for keyword matching.
-    text_fields = [
+    # Session-level fields shared by every sub-session row.
+    session_base_fields = [
         session_name,
         detail["track"],
         detail["format"],
         detail["society"],
         detail["science_type"],
-    ] + [sub["name"] for sub in detail["sub_sessions"]]
+    ]
 
-    keyword_matches = kw.match_keywords(text_fields, patterns)
+    # Tag each sub-session individually: session-level fields + that sub's
+    # own name.  A keyword in a session-level field propagates to all rows;
+    # a keyword that only appears in one sub-session name tags only that row.
+    for sub in detail["sub_sessions"]:
+        sub_kw = kw.match_keywords(session_base_fields + [sub["name"]], patterns)
+        sub["indication"]   = sub_kw.get("Indication", "")
+        sub["company"]      = sub_kw.get("Company", "")
+        sub["product_name"] = sub_kw.get("Product Name", "")
+        sub["moa"]          = sub_kw.get("MOA", "")
 
-    return _build_row(day_label, session_name, start_time, end_time, date_str, region, detail, keyword_matches)
+    # For sessions with no sub-sessions the exporter creates a synthetic row
+    # using the session name.  Pre-compute tags for that case too.
+    if not detail["sub_sessions"]:
+        session_kw = kw.match_keywords(session_base_fields, patterns)
+        detail["_session_kw"] = session_kw
+    else:
+        detail["_session_kw"] = {}
+
+    return _build_row(day_label, session_name, start_time, end_time, date_str, region, detail)
 
 
 def _save_checkpoint(rows: list[dict]) -> None:

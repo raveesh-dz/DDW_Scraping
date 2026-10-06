@@ -1,0 +1,362 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - link "company logo" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "company logo" [ref=e13]
+    - generic [ref=e14]:
+      - button "Register" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Register
+        - img [ref=e18]
+      - button "Sign in" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: Sign in
+  - generic [ref=e24]:
+    - region [ref=e26]:
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: ATS 2026 International Conference
+            - heading "Program" [level=1] [ref=e33]
+            - heading "Deep dive into critical topics and the latest advancements impacting pulmonary, critical care and sleep medicine." [level=5] [ref=e34]
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - searchbox "Search" [ref=e41]
+      - list "Select a slide to display"
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - link "Explore" [ref=e46] [cursor=pointer]:
+          - /url: /education
+        - link "Program" [ref=e47] [cursor=pointer]:
+          - /url: /education/program
+        - link "Sessions" [ref=e48] [cursor=pointer]:
+          - /url: /education/sessions
+        - link "Meetings & Events" [ref=e49] [cursor=pointer]:
+          - /url: /education/meetings-and-events
+        - link "Speakers/Authors" [ref=e50] [cursor=pointer]:
+          - /url: /education/speakers
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Sessions" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Sessions bring together comprehensive scientific and educational programming designed to support learning, discovery, and professional development across the conference.
+        - generic [ref=e56]:
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - img [ref=e64]
+                - searchbox "Search" [ref=e66]
+              - generic [ref=e67]:
+                - button "All filters" [ref=e68] [cursor=pointer]:
+                  - img [ref=e70]
+                  - generic [ref=e72]: All filters
+                - generic [ref=e709]: "2"
+            - button "Streaming" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: Streaming
+            - generic [ref=e710]:
+              - button "Clear" [ref=e711] [cursor=pointer]:
+                - img [ref=e713]
+                - generic [ref=e715]: Clear
+              - generic [ref=e716] [cursor=pointer]:
+                - paragraph [ref=e717]: Bronchiectasis
+                - img [ref=e720]
+              - generic [ref=e722] [cursor=pointer]:
+                - paragraph [ref=e723]: COPD
+                - img [ref=e726]
+            - dialog [ref=e563]:
+              - generic [active] [ref=e564]:
+                - banner [ref=e565]:
+                  - generic [ref=e566]:
+                    - heading "Filter by" [level=6] [ref=e567]
+                    - button [ref=e568] [cursor=pointer]:
+                      - img [ref=e570]
+                - generic [ref=e574]:
+                  - generic [ref=e575]:
+                    - paragraph [ref=e577]: Suggested
+                    - button "Streaming" [ref=e579] [cursor=pointer]:
+                      - generic [ref=e580]: Streaming
+                  - generic [ref=e581]:
+                    - paragraph [ref=e583]: Session Types
+                    - generic [ref=e585]:
+                      - button "Adult Clinical Core Curriculum" [ref=e586] [cursor=pointer]:
+                        - generic [ref=e587]: Adult Clinical Core Curriculum
+                      - button "Basic Science Core" [ref=e588] [cursor=pointer]:
+                        - generic [ref=e589]: Basic Science Core
+                      - button "Clinical Topics in Pulmonary Medicine" [ref=e590] [cursor=pointer]:
+                        - generic [ref=e591]: Clinical Topics in Pulmonary Medicine
+                      - button "Conference Event" [ref=e592] [cursor=pointer]:
+                        - generic [ref=e593]: Conference Event
+                      - button "Critical Care Track" [ref=e594] [cursor=pointer]:
+                        - generic [ref=e595]: Critical Care Track
+                      - button "Fellows Track Symposium" [ref=e596] [cursor=pointer]:
+                        - generic [ref=e597]: Fellows Track Symposium
+                      - button "Forum" [ref=e598] [cursor=pointer]:
+                        - generic [ref=e599]: Forum
+                      - button "Keynote Series" [ref=e600] [cursor=pointer]:
+                        - generic [ref=e601]: Keynote Series
+                      - button "Late Breaking Mini Symposium" [ref=e602] [cursor=pointer]:
+                        - generic [ref=e603]: Late Breaking Mini Symposium
+                      - button "Medical Education Seminar" [ref=e604] [cursor=pointer]:
+                        - generic [ref=e605]: Medical Education Seminar
+                      - button "27" [ref=e607] [cursor=pointer]:
+                        - img [ref=e609]
+                        - generic [ref=e611]: "27"
+                  - generic [ref=e612]:
+                    - generic [ref=e613]:
+                      - paragraph [ref=e614]: Topics
+                      - generic [ref=e728] [cursor=pointer]:
+                        - paragraph [ref=e729]: "2"
+                        - img [ref=e732]
+                    - generic [ref=e616]:
+                      - button "Advocacy" [ref=e617] [cursor=pointer]:
+                        - generic [ref=e618]: Advocacy
+                      - button "Artificial Intelligence" [ref=e619] [cursor=pointer]:
+                        - generic [ref=e620]: Artificial Intelligence
+                      - button "Asthma" [ref=e621] [cursor=pointer]:
+                        - generic [ref=e622]: Asthma
+                      - button "Bronchiectasis" [ref=e623] [cursor=pointer]:
+                        - generic [ref=e624]: Bronchiectasis
+                      - button "Burnout" [ref=e625] [cursor=pointer]:
+                        - generic [ref=e626]: Burnout
+                      - button "COPD" [ref=e627] [cursor=pointer]:
+                        - generic [ref=e628]: COPD
+                      - button "COVID-19" [ref=e629] [cursor=pointer]:
+                        - generic [ref=e630]: COVID-19
+                      - button "Cancer" [ref=e631] [cursor=pointer]:
+                        - generic [ref=e632]: Cancer
+                      - button "Cellular/Molecular Biology" [ref=e633] [cursor=pointer]:
+                        - generic [ref=e634]: Cellular/Molecular Biology
+                      - button "Critical Care" [ref=e635] [cursor=pointer]:
+                        - generic [ref=e636]: Critical Care
+                      - button "Critical Illness" [ref=e637] [cursor=pointer]:
+                        - generic [ref=e638]: Critical Illness
+                      - button "Cystic Fibrosis" [ref=e639] [cursor=pointer]:
+                        - generic [ref=e640]: Cystic Fibrosis
+                      - button "32" [ref=e642] [cursor=pointer]:
+                        - img [ref=e644]
+                        - generic [ref=e646]: "32"
+                  - generic [ref=e647]:
+                    - paragraph [ref=e649]: Target Audiences
+                    - generic [ref=e651]:
+                      - button "Advance Practice Providers" [ref=e652] [cursor=pointer]:
+                        - generic [ref=e653]: Advance Practice Providers
+                      - button "Advanced Practice Providers" [ref=e654] [cursor=pointer]:
+                        - generic [ref=e655]: Advanced Practice Providers
+                      - button "Basic Science Researchers" [ref=e656] [cursor=pointer]:
+                        - generic [ref=e657]: Basic Science Researchers
+                      - button "Clinical Researchers" [ref=e658] [cursor=pointer]:
+                        - generic [ref=e659]: Clinical Researchers
+                      - button "Clinicians" [ref=e660] [cursor=pointer]:
+                        - generic [ref=e661]: Clinicians
+                      - button "Early Career Professionals" [ref=e662] [cursor=pointer]:
+                        - generic [ref=e663]: Early Career Professionals
+                      - button "Early Career Professionals (Basic and Translational Science)" [ref=e664] [cursor=pointer]:
+                        - generic [ref=e665]: Early Career Professionals (Basic and Translational Science)
+                      - button "20" [ref=e667] [cursor=pointer]:
+                        - img [ref=e669]
+                        - generic [ref=e671]: "20"
+                  - generic [ref=e672]:
+                    - paragraph [ref=e674]: Assemblies
+                    - generic [ref=e676]:
+                      - button "Allergy, Immunology and Inflammation" [ref=e677] [cursor=pointer]:
+                        - generic [ref=e678]: Allergy, Immunology and Inflammation
+                      - button "Behavioral Science and Health Services Research" [ref=e679] [cursor=pointer]:
+                        - generic [ref=e680]: Behavioral Science and Health Services Research
+                      - button "Clinical Problems" [ref=e681] [cursor=pointer]:
+                        - generic [ref=e682]: Clinical Problems
+                      - button "Critical Care" [ref=e683] [cursor=pointer]:
+                        - generic [ref=e684]: Critical Care
+                      - button "Environmental, Occupational and Population Health" [ref=e685] [cursor=pointer]:
+                        - generic [ref=e686]: Environmental, Occupational and Population Health
+                      - button "Nursing" [ref=e687] [cursor=pointer]:
+                        - generic [ref=e688]: Nursing
+                      - button "Pediatrics" [ref=e689] [cursor=pointer]:
+                        - generic [ref=e690]: Pediatrics
+                      - button "Pulmonary Circulation" [ref=e691] [cursor=pointer]:
+                        - generic [ref=e692]: Pulmonary Circulation
+                      - button "14" [ref=e694] [cursor=pointer]:
+                        - img [ref=e696]
+                        - generic [ref=e698]: "14"
+                - contentinfo [ref=e699]:
+                  - generic [ref=e700]:
+                    - button "Clear all" [ref=e702] [cursor=pointer]:
+                      - generic [ref=e703]: Clear all
+                    - button "Show 149 results" [ref=e738] [cursor=pointer]:
+                      - generic [ref=e706]: Show 149 results
+          - generic [ref=e739]:
+            - generic [ref=e741]:
+              - generic [ref=e742] [cursor=pointer]:
+                - generic [ref=e743]: Friday
+                - generic [ref=e744]: "15"
+              - generic [ref=e745] [cursor=pointer]:
+                - generic [ref=e746]: Saturday
+                - generic [ref=e747]: "16"
+              - generic [ref=e748] [cursor=pointer]:
+                - generic [ref=e749]: Sunday
+                - generic [ref=e750]: "17"
+              - generic [ref=e751] [cursor=pointer]:
+                - generic [ref=e752]: Monday
+                - generic [ref=e753]: "18"
+              - generic [ref=e754] [cursor=pointer]:
+                - generic [ref=e755]: Tuesday
+                - generic [ref=e756]: "19"
+              - generic [ref=e757] [cursor=pointer]:
+                - generic [ref=e758]: Wednesday
+                - generic [ref=e759]: "20"
+            - generic [ref=e760]:
+              - generic [ref=e761]:
+                - paragraph [ref=e764]: 8:00 AM
+                - link "image for PG6 BEST PRACTICES IN PULMONARY FUNCTION TESTING Postgraduate Course PG6 BEST PRACTICES IN PULMONARY FUNCTION TESTING May 15, 8:00 AM – 4:00 PM (EDT) W312 (Level III, OCCC West Concourse) Michael Paul. Mohning, Carl DEAN. Mottram, Alexander S. Niven + 12 more" [ref=e766] [cursor=pointer]:
+                  - /url: /education/sessions/6f5a9a3b-ea39-4d56-b7d1-1c94006554df
+                  - generic [ref=e767]:
+                    - generic [ref=e769]:
+                      - button [ref=e770]:
+                        - img [ref=e772]
+                      - button [ref=e774]:
+                        - img [ref=e776]
+                    - img "image for PG6 BEST PRACTICES IN PULMONARY FUNCTION TESTING" [ref=e778]
+                  - generic [ref=e779]:
+                    - paragraph [ref=e784]: Postgraduate Course
+                    - generic [ref=e785]: PG6 BEST PRACTICES IN PULMONARY FUNCTION TESTING
+                    - generic [ref=e786]:
+                      - generic [ref=e787]: May 15, 8:00 AM – 4:00 PM (EDT)
+                      - generic [ref=e788]: W312 (Level III, OCCC West Concourse)
+                    - generic [ref=e789]: Michael Paul. Mohning, Carl DEAN. Mottram, Alexander S. Niven + 12 more
+                - 'link "image for PG8 BRONCHIECTASIS AND NTM PULMONARY DISEASE: ETIOLOGIES, COMPLEX CASE MANAGEMENT, AND UPDATED GUIDELINES Postgraduate Course PG8 BRONCHIECTASIS AND NTM PULMONARY DISEASE: ETIOLOGIES, COMPLEX CASE MANAGEMENT, AND UPDATED GUIDELINES May 15, 8:00 AM – 4:00 PM (EDT) W311 E-H (Level III, OCCC West Concourse) Amelia Shoemark, Kenneth N. Olivier, Elisa Ignatius + 14 more" [ref=e792] [cursor=pointer]':
+                  - /url: /education/sessions/c4e8e9e9-2188-4e04-ae0b-cad6bb6cf83c
+                  - generic [ref=e793]:
+                    - generic [ref=e795]:
+                      - button [ref=e796]:
+                        - img [ref=e798]
+                      - button [ref=e800]:
+                        - img [ref=e802]
+                    - 'img "image for PG8 BRONCHIECTASIS AND NTM PULMONARY DISEASE: ETIOLOGIES, COMPLEX CASE MANAGEMENT, AND UPDATED GUIDELINES" [ref=e804]'
+                  - generic [ref=e805]:
+                    - paragraph [ref=e810]: Postgraduate Course
+                    - generic [ref=e811]: "PG8 BRONCHIECTASIS AND NTM PULMONARY DISEASE: ETIOLOGIES, COMPLEX CASE MANAGEMENT, AND UPDATED GUIDELINES"
+                    - generic [ref=e812]:
+                      - generic [ref=e813]: May 15, 8:00 AM – 4:00 PM (EDT)
+                      - generic [ref=e814]: W311 E-H (Level III, OCCC West Concourse)
+                    - generic [ref=e815]: Amelia Shoemark, Kenneth N. Olivier, Elisa Ignatius + 14 more
+                - 'link "image for PG7 COPD 2026: STATE OF THE ART Postgraduate Course PG7 COPD 2026: STATE OF THE ART May 15, 8:00 AM – 4:00 PM (EDT) W304 B-D (Level III, OCCC West Concourse) Antonio R. Anzueto, Carolyn L. Rochester, Frank C. Sciurba + 18 more" [ref=e818] [cursor=pointer]':
+                  - /url: /education/sessions/c69ab7a9-0a0e-401e-a92c-9253a38151de
+                  - generic [ref=e819]:
+                    - generic [ref=e821]:
+                      - button [ref=e822]:
+                        - img [ref=e824]
+                      - button [ref=e826]:
+                        - img [ref=e828]
+                    - 'img "image for PG7 COPD 2026: STATE OF THE ART" [ref=e830]'
+                  - generic [ref=e831]:
+                    - paragraph [ref=e836]: Postgraduate Course
+                    - generic [ref=e837]: "PG7 COPD 2026: STATE OF THE ART"
+                    - generic [ref=e838]:
+                      - generic [ref=e839]: May 15, 8:00 AM – 4:00 PM (EDT)
+                      - generic [ref=e840]: W304 B-D (Level III, OCCC West Concourse)
+                    - generic [ref=e841]: Antonio R. Anzueto, Carolyn L. Rochester, Frank C. Sciurba + 18 more
+                - 'link "image for PG3 BRONCH DAY 2026: A COMPREHENSIVE, HANDS-ON GUIDE TO BASIC BRONCHOSCOPY, EBUS, AND GUIDED BRONCHOSCOPY Postgraduate Course PG3 BRONCH DAY 2026: A COMPREHENSIVE, HANDS-ON GUIDE TO BASIC BRONCHOSCOPY, EBUS, AND GUIDED BRONCHOSCOPY May 15, 8:00 AM – 4:00 PM (EDT) W240 AB (Level II, OCCC West Concourse) Ajay Arun. Wagh, Andrew Otieno. Owuor, Abhishek Sarkar + 22 more" [ref=e844] [cursor=pointer]':
+                  - /url: /education/sessions/9baddc8a-108f-475e-b09e-82e8fa6a553c
+                  - generic [ref=e845]:
+                    - generic [ref=e847]:
+                      - button [ref=e848]:
+                        - img [ref=e850]
+                      - button [ref=e852]:
+                        - img [ref=e854]
+                    - 'img "image for PG3 BRONCH DAY 2026: A COMPREHENSIVE, HANDS-ON GUIDE TO BASIC BRONCHOSCOPY, EBUS, AND GUIDED BRONCHOSCOPY" [ref=e856]'
+                  - generic [ref=e857]:
+                    - paragraph [ref=e862]: Postgraduate Course
+                    - generic [ref=e863]: "PG3 BRONCH DAY 2026: A COMPREHENSIVE, HANDS-ON GUIDE TO BASIC BRONCHOSCOPY, EBUS, AND GUIDED BRONCHOSCOPY"
+                    - generic [ref=e864]:
+                      - generic [ref=e865]: May 15, 8:00 AM – 4:00 PM (EDT)
+                      - generic [ref=e866]: W240 AB (Level II, OCCC West Concourse)
+                    - generic [ref=e867]: Ajay Arun. Wagh, Andrew Otieno. Owuor, Abhishek Sarkar + 22 more
+                - 'link "image for PG1A TAKE IT ALL IN!: COMPREHENSIVE REVIEW OF PEDIATRIC PULMONOLOGY AND PREPARATION FOR THE BOARDS Postgraduate Course PG1A TAKE IT ALL IN!: COMPREHENSIVE REVIEW OF PEDIATRIC PULMONOLOGY AND PREPARATION FOR THE BOARDS May 15, 8:00 AM – 4:00 PM (EDT) W304 F-H (Level III, OCCC West Concourse) Gustavo R. Nino, Natalie M. Villafranco, Erin Kelsey. Khan + 12 more" [ref=e870] [cursor=pointer]':
+                  - /url: /education/sessions/b9bfcd2a-e3cf-4465-9bf4-3ca11e0ed892
+                  - generic [ref=e871]:
+                    - generic [ref=e873]:
+                      - button [ref=e874]:
+                        - img [ref=e876]
+                      - button [ref=e878]:
+                        - img [ref=e880]
+                    - 'img "image for PG1A TAKE IT ALL IN!: COMPREHENSIVE REVIEW OF PEDIATRIC PULMONOLOGY AND PREPARATION FOR THE BOARDS" [ref=e882]'
+                  - generic [ref=e883]:
+                    - paragraph [ref=e888]: Postgraduate Course
+                    - generic [ref=e889]: "PG1A TAKE IT ALL IN!: COMPREHENSIVE REVIEW OF PEDIATRIC PULMONOLOGY AND PREPARATION FOR THE BOARDS"
+                    - generic [ref=e890]:
+                      - generic [ref=e891]: May 15, 8:00 AM – 4:00 PM (EDT)
+                      - generic [ref=e892]: W304 F-H (Level III, OCCC West Concourse)
+                    - generic [ref=e893]: Gustavo R. Nino, Natalie M. Villafranco, Erin Kelsey. Khan + 12 more
+              - generic [ref=e895]:
+                - paragraph [ref=e898]: 12:00 PM
+                - link "image for Respiratory Innovation Summit Respiratory Innovation Summit Respiratory Innovation Summit May 15, 12:00 PM – 8:00 PM (EDT) Regency S(Convention Lvl, Hyatt Regency) Niall Odonell, Par Nijhawan, Leeran Talker + 7 more" [ref=e900] [cursor=pointer]:
+                  - /url: /education/sessions/f13fbd24-1548-47ba-bd1f-48e818f510c7
+                  - generic [ref=e901]:
+                    - generic [ref=e903]:
+                      - button [ref=e904]:
+                        - img [ref=e906]
+                      - button [ref=e908]:
+                        - img [ref=e910]
+                    - img "image for Respiratory Innovation Summit" [ref=e912]
+                  - generic [ref=e913]:
+                    - paragraph [ref=e918]: Respiratory Innovation Summit
+                    - generic [ref=e919]: Respiratory Innovation Summit
+                    - generic [ref=e920]:
+                      - generic [ref=e921]: May 15, 12:00 PM – 8:00 PM (EDT)
+                      - generic [ref=e922]: Regency S(Convention Lvl, Hyatt Regency)
+                    - generic [ref=e923]: Niall Odonell, Par Nijhawan, Leeran Talker + 7 more
+  - generic [ref=e502]:
+    - generic [ref=e503]:
+      - generic [ref=e504]:
+        - paragraph [ref=e505]: Resources
+        - link "Support" [ref=e506] [cursor=pointer]:
+          - /url: /help-center
+          - paragraph [ref=e507]: Support
+        - link "ATS Conference News" [ref=e508] [cursor=pointer]:
+          - /url: https://www.atsconferencenews.org/
+          - paragraph [ref=e509]: ATS Conference News
+        - link "ATS Research Program" [ref=e510] [cursor=pointer]:
+          - /url: https://research.thoracic.org/index.php
+          - paragraph [ref=e511]: ATS Research Program
+        - link "Conference Website" [ref=e512] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/
+          - paragraph [ref=e513]: Conference Website
+      - generic [ref=e514]:
+        - paragraph [ref=e515]: Important Links
+        - link "Register" [ref=e516] [cursor=pointer]:
+          - /url: https://site.thoracic.org/conference/attendees/register
+          - paragraph [ref=e517]: Register
+        - link "Become a Donor" [ref=e518] [cursor=pointer]:
+          - /url: https://research.thoracic.org/donate/index.php
+          - paragraph [ref=e519]: Become a Donor
+      - generic [ref=e520]:
+        - paragraph [ref=e521]: Legal
+        - link "Terms of Use" [ref=e522] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/terms-of-use
+          - paragraph [ref=e523]: Terms of Use
+        - link "Privacy Policy" [ref=e524] [cursor=pointer]:
+          - /url: https://www.thoracic.org/privacy-policy.php
+          - paragraph [ref=e525]: Privacy Policy
+        - link "Code of Conduct" [ref=e526] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/attendees/code-of-conduct.php
+          - paragraph [ref=e527]: Code of Conduct
+        - link "Cookie Policy" [ref=e528] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/privacy-policy#use-of-cookies
+          - paragraph [ref=e529]: Cookie Policy
+      - generic [ref=e531]:
+        - link [ref=e532] [cursor=pointer]:
+          - /url: https://twitter.com/atscommunity
+          - img [ref=e535]
+        - link [ref=e537] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/american-thoracic-society_2/
+          - img [ref=e540]
+        - link [ref=e542] [cursor=pointer]:
+          - /url: https://www.instagram.com/atscommunity/
+          - img [ref=e545]
+        - link [ref=e547] [cursor=pointer]:
+          - /url: https://www.facebook.com/americanthoracic
+          - img [ref=e550]
+        - link [ref=e552] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCzbly6r1MKUnO0KfrD__yqg
+          - img [ref=e555]
+    - generic [ref=e558]: Powered by Sherpa · All rights reserved © 2026
+  - button [ref=e559] [cursor=pointer]:
+    - img [ref=e561]

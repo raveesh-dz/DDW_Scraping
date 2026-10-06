@@ -1,0 +1,221 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - link "company logo" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "company logo" [ref=e13]
+    - generic [ref=e14]:
+      - button "Register" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Register
+        - img [ref=e18]
+      - button "Sign in" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: Sign in
+  - generic [ref=e24]:
+    - region [ref=e26]:
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: ATS 2026 International Conference
+            - heading "Program" [level=1] [ref=e33]
+            - heading "Deep dive into critical topics and the latest advancements impacting pulmonary, critical care and sleep medicine." [level=5] [ref=e34]
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - searchbox "Search" [ref=e41]
+      - list "Select a slide to display"
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - link "Explore" [ref=e46] [cursor=pointer]:
+          - /url: /education
+        - link "Program" [ref=e47] [cursor=pointer]:
+          - /url: /education/program
+        - link "Sessions" [ref=e48] [cursor=pointer]:
+          - /url: /education/sessions
+        - link "Meetings & Events" [ref=e49] [cursor=pointer]:
+          - /url: /education/meetings-and-events
+        - link "Speakers/Authors" [ref=e50] [cursor=pointer]:
+          - /url: /education/speakers
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Conference Program & Events" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Education and Scientific Programs highlight the foundational learning and research content of the conference. These sessions strengthen expertise, deepen understanding of key issues, and connect attendees with the latest innovations shaping the field.
+        - generic [ref=e55]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - img [ref=e62]
+                - searchbox "Search" [ref=e64]
+              - button "All filters" [ref=e66] [cursor=pointer]:
+                - img [ref=e68]
+                - generic [ref=e70]: All filters
+            - button "Streaming" [ref=e72] [cursor=pointer]:
+              - generic [ref=e73]: Streaming
+          - generic [ref=e74]:
+            - generic [ref=e76]:
+              - button "Fri May 15" [ref=e77] [cursor=pointer]
+              - button "Sat May 16" [ref=e78] [cursor=pointer]
+              - button "Sun May 17" [ref=e79] [cursor=pointer]
+              - button "Mon May 18" [ref=e80] [cursor=pointer]
+              - button "Tue May 19" [ref=e81] [cursor=pointer]
+              - button "Wed May 20" [ref=e82] [cursor=pointer]
+            - button "Expand all" [ref=e83] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Expand all
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - paragraph [ref=e92]: 6 AM
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - paragraph [ref=e96]: 7:00 AM – 4:00 PM
+                  - generic [ref=e99]:
+                    - heading "Pre-Conference" [level=6] [ref=e100]
+                    - paragraph [ref=e102]: ATS 2026 offers comprehensive Pre-Conference programming spanning from full-day or half-day postgraduate courses, early career programs, and the Respiratory Innovation Summit.
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - paragraph [ref=e106]: 7:00 AM – 4:15 PM
+                    - generic [ref=e107]:
+                      - heading "Fellows Track Symposium" [level=5] [ref=e108]
+                      - generic [ref=e109]:
+                        - paragraph [ref=e110]: The ATS Fellows Track Symposium (FTS) at the ATS 2026 International Conference will be held at the Orange County Convention Center. The 2026 FTS program is a two-day course (May 15 – 16, 2026) held prior to the ATS International Conference and will allow 200 adult and pediatric fellows in pulmonary, critical care, and sleep medicine programs to attend a special course covering cutting edge topics in the field of respiratory medicine. Please note there is limited space, seats fill up fast.
+                        - text: Read more
+                  - button "2 sessions" [ref=e113] [cursor=pointer]:
+                    - generic [ref=e114]: 2 sessions
+                    - img [ref=e116]
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - paragraph [ref=e122]: 7:00 AM – 5:05 PM
+                    - generic [ref=e123]:
+                      - heading "New Faculty Boot Camp" [level=5] [ref=e124]
+                      - paragraph [ref=e126]: The NFBC is designed for members-in-training, including clinical fellows in the final two years of their training and PhD post-doctoral fellows in the final three years of their training. In addition, early-career faculty within the first three years of their initial faculty appointment, regardless of doctoral degree, are eligible to apply.
+                  - button "1 session" [ref=e129] [cursor=pointer]:
+                    - generic [ref=e130]: 1 session
+                    - img [ref=e132]
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - paragraph [ref=e138]: 7:00 AM – 4:50 PM
+                    - generic [ref=e139]:
+                      - heading "Student Scholars Program" [level=5] [ref=e140]
+                      - paragraph [ref=e142]: The Student Scholars Program is a unique opportunity for a select group of 80-100 motivated individuals who are currently enrolled in or are applying to undergraduate school, graduate school, respiratory therapy training, nursing school and medical school to attend the annual ATS International Conference!
+                  - button "1 session" [ref=e145] [cursor=pointer]:
+                    - generic [ref=e146]: 1 session
+                    - img [ref=e148]
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - paragraph [ref=e154]: 7:00 AM – 5:00 PM
+                    - generic [ref=e155]:
+                      - heading "Resident Boot Camp" [level=5] [ref=e156]
+                      - paragraph [ref=e158]: The ATS Resident Boot Camp is a two-day in person course for internal medicine and pediatric residents (as well as chief residents and hospitalists) scheduled for Friday May 15 and Saturday, May 16, 2026, in Orlando. The Boot Camp is for fellows who matched into a fellowship program for July 2026.
+                  - button "1 session" [ref=e161] [cursor=pointer]:
+                    - generic [ref=e162]: 1 session
+                    - img [ref=e164]
+            - generic [ref=e167]:
+              - paragraph [ref=e169]: 7 AM
+              - generic [ref=e170]:
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - paragraph [ref=e174]: 7:30 AM – 4:00 PM
+                    - generic [ref=e175]:
+                      - heading "Resident Boot Camp" [level=5] [ref=e176]
+                      - paragraph [ref=e178]: The ATS Resident Boot Camp is a two-day in person course for internal medicine and pediatric residents (as well as chief residents and hospitalists) scheduled for Friday May 15 and Saturday, May 16, 2026, in Orlando. The Boot Camp is for fellows who matched into a fellowship program for July 2026.
+                  - button "1 session" [ref=e181] [cursor=pointer]:
+                    - generic [ref=e182]: 1 session
+                    - img [ref=e184]
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - paragraph [ref=e190]: 8:00 AM – 4:00 PM
+                    - generic [ref=e191]:
+                      - heading "Postgraduate Course" [level=5] [ref=e192]
+                      - paragraph [ref=e194]: One-day full or half-day courses held on the Friday and Saturday preceding the International Conference. The courses are intended to be systematic in design, and an opportunity for a more comprehensive, organized review of knowledge, rather than of recent advances only. Separate registration and an additional fee are required of those who wish to attend postgraduate courses.
+                  - button "8 sessions" [ref=e197] [cursor=pointer]:
+                    - generic [ref=e198]: 8 sessions
+                    - img [ref=e200]
+            - generic [ref=e203]:
+              - paragraph [ref=e205]: 8 AM
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - paragraph [ref=e210]: 8:30 AM – 11:00 AM
+                  - generic [ref=e211]:
+                    - heading "Meeting" [level=5] [ref=e212]
+                    - paragraph [ref=e214]: Meetings & Events highlight the gatherings that shape the conference’s collaborative and community-driven work. Explore key meetings, special events, and supplemental activities designed to foster dialogue, build partnerships, and enrich the attendee experience.
+                - button "1 session" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e218]: 1 session
+                  - img [ref=e220]
+            - generic [ref=e223]:
+              - paragraph [ref=e225]: 11 AM
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - paragraph [ref=e230]: 12:00 PM – 8:00 PM
+                  - generic [ref=e231]:
+                    - heading "Respiratory Innovation Summit" [level=5] [ref=e232]
+                    - generic [ref=e233]:
+                      - paragraph [ref=e234]: Hosted by the American Thoracic Society, the 2026 Respiratory Innovation Summit will unite the innovators, investors, clinicians and advocacy groups who are leading the charge to create powerful new treatments for deadly and crippling diseases of the lungs and airways. This meeting historically attracts 400+ global leaders representing all facets of the respiratory industry, including representatives from start-ups, business development, venture capital, government, academia and clinical medicine.
+                      - text: Read more
+                - button "1 session" [ref=e237] [cursor=pointer]:
+                  - generic [ref=e238]: 1 session
+                  - img [ref=e240]
+          - button "Next day" [ref=e245] [cursor=pointer]:
+            - generic [ref=e246]: Next day
+            - img [ref=e248]
+          - dialog [active] [ref=e250]:
+            - generic [ref=e251]:
+              - button [ref=e253] [cursor=pointer]:
+                - img [ref=e255]
+              - generic [ref=e261]:
+                - paragraph [ref=e263]: Description
+                - generic [ref=e264]: Artificial intelligence is rapidly reshaping how pulmonary and critical care clinicians are trained, shifting education from standardized models toward adaptive, learner-centered approaches. This session explores how AI can individualize learning pathways, augment procedural training through real-time feedback, and redefine competency assessment. Faculty will also address critical considerations around psychological safety, equity, and learner agency in AI-enabled environments. Through practical examples and forward-looking insights, attendees will gain a framework for integrating AI into education while preserving the human elements essential to effective training and professional identity formation.
+              - link "Session Detail" [ref=e267] [cursor=pointer]:
+                - /url: /education/sessions/2e3f5e08-227e-4a9d-8dc9-5766105b0368
+                - paragraph [ref=e268]: Session Detail
+                - img [ref=e270]
+  - generic [ref=e274]:
+    - generic [ref=e275]:
+      - generic [ref=e276]:
+        - paragraph [ref=e277]: Resources
+        - link "ATS Conference News" [ref=e278] [cursor=pointer]:
+          - /url: https://www.atsconferencenews.org/
+          - paragraph [ref=e279]: ATS Conference News
+        - link "ATS Research Program" [ref=e280] [cursor=pointer]:
+          - /url: https://research.thoracic.org/index.php
+          - paragraph [ref=e281]: ATS Research Program
+        - link "Conference Website" [ref=e282] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/
+          - paragraph [ref=e283]: Conference Website
+      - generic [ref=e284]:
+        - paragraph [ref=e285]: Important Links
+        - link "Register" [ref=e286] [cursor=pointer]:
+          - /url: https://site.thoracic.org/conference/attendees/register
+          - paragraph [ref=e287]: Register
+        - link "Become a Donor" [ref=e288] [cursor=pointer]:
+          - /url: https://research.thoracic.org/donate/index.php
+          - paragraph [ref=e289]: Become a Donor
+      - generic [ref=e290]:
+        - paragraph [ref=e291]: Legal
+        - link "Terms of Use" [ref=e292] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/terms-of-use
+          - paragraph [ref=e293]: Terms of Use
+        - link "Privacy Policy" [ref=e294] [cursor=pointer]:
+          - /url: https://www.thoracic.org/privacy-policy.php
+          - paragraph [ref=e295]: Privacy Policy
+        - link "Code of Conduct" [ref=e296] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/attendees/code-of-conduct.php
+          - paragraph [ref=e297]: Code of Conduct
+        - link "Cookie Policy" [ref=e298] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/privacy-policy#use-of-cookies
+          - paragraph [ref=e299]: Cookie Policy
+      - generic [ref=e301]:
+        - link [ref=e302] [cursor=pointer]:
+          - /url: https://twitter.com/atscommunity
+          - img [ref=e305]
+        - link [ref=e307] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/american-thoracic-society_2/
+          - img [ref=e310]
+        - link [ref=e312] [cursor=pointer]:
+          - /url: https://www.instagram.com/atscommunity/
+          - img [ref=e315]
+        - link [ref=e317] [cursor=pointer]:
+          - /url: https://www.facebook.com/americanthoracic
+          - img [ref=e320]
+        - link [ref=e322] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCzbly6r1MKUnO0KfrD__yqg
+          - img [ref=e325]
+    - generic [ref=e328]: Powered by Sherpa · All rights reserved © 2026

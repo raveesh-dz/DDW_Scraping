@@ -1,0 +1,15 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - link "company logo" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "company logo" [ref=e13]
+    - generic [ref=e14]:
+      - button "Register" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Register
+        - img [ref=e18]
+      - button "Sign in" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: Sign in
+  - button [ref=e23] [cursor=pointer]:
+    - img [ref=e25]

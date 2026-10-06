@@ -1,0 +1,345 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e7] [cursor=pointer]
+        - link "company logo" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "company logo" [ref=e13]
+      - generic [ref=e14]:
+        - button "Register" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Register
+          - img [ref=e18]
+        - button "Sign in" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Sign in
+    - generic [ref=e492]:
+      - link "Explore" [ref=e493] [cursor=pointer]:
+        - /url: /education
+      - link "Program" [ref=e494] [cursor=pointer]:
+        - /url: /education/program
+      - link "Sessions" [ref=e495] [cursor=pointer]:
+        - /url: /education/sessions
+      - link "Meetings & Events" [ref=e496] [cursor=pointer]:
+        - /url: /education/meetings-and-events
+      - link "Speakers/Authors" [ref=e497] [cursor=pointer]:
+        - /url: /education/speakers
+    - generic [ref=e500]:
+      - generic [ref=e502]:
+        - button "Fri May 15" [ref=e503] [cursor=pointer]
+        - button "Sat May 16" [ref=e504] [cursor=pointer]
+        - button "Sun May 17" [ref=e505] [cursor=pointer]
+        - button "Mon May 18" [ref=e506] [cursor=pointer]
+        - button "Tue May 19" [ref=e507] [cursor=pointer]
+        - button "Wed May 20" [ref=e508] [cursor=pointer]
+      - button "Collapse all" [ref=e514] [cursor=pointer]:
+        - img [ref=e511]
+        - generic [ref=e513]: Collapse all
+  - generic [ref=e24]:
+    - region [ref=e26]:
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: ATS 2026 International Conference
+            - heading "Program" [level=1] [ref=e33]
+            - heading "Deep dive into critical topics and the latest advancements impacting pulmonary, critical care and sleep medicine." [level=5] [ref=e34]
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - searchbox "Search" [ref=e41]
+      - list "Select a slide to display"
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - link "Explore" [ref=e46] [cursor=pointer]:
+          - /url: /education
+        - link "Program" [ref=e47] [cursor=pointer]:
+          - /url: /education/program
+        - link "Sessions" [ref=e48] [cursor=pointer]:
+          - /url: /education/sessions
+        - link "Meetings & Events" [ref=e49] [cursor=pointer]:
+          - /url: /education/meetings-and-events
+        - link "Speakers/Authors" [ref=e50] [cursor=pointer]:
+          - /url: /education/speakers
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Conference Program & Events" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Education and Scientific Programs highlight the foundational learning and research content of the conference. These sessions strengthen expertise, deepen understanding of key issues, and connect attendees with the latest innovations shaping the field.
+        - generic [ref=e55]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - img [ref=e62]
+                - searchbox "Search" [ref=e64]
+              - button "All filters" [ref=e66] [cursor=pointer]:
+                - img [ref=e68]
+                - generic [ref=e70]: All filters
+            - button "Streaming" [ref=e72] [cursor=pointer]:
+              - generic [ref=e73]: Streaming
+          - generic [ref=e74]:
+            - generic [ref=e76]:
+              - button "Fri May 15" [ref=e77] [cursor=pointer]
+              - button "Sat May 16" [ref=e78] [cursor=pointer]
+              - button "Sun May 17" [ref=e79] [cursor=pointer]
+              - button "Mon May 18" [ref=e80] [cursor=pointer]
+              - button "Tue May 19" [ref=e81] [cursor=pointer]
+              - button "Wed May 20" [ref=e82] [cursor=pointer]
+            - button "Collapse all" [ref=e515] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Collapse all
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - paragraph [ref=e92]: 6 AM
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]:
+                    - paragraph [ref=e97]: 7:00 AM – 8:00 AM
+                    - generic [ref=e98]:
+                      - heading "Networking Super Center Learning Event" [level=5] [ref=e99]
+                      - paragraph [ref=e101]: The Learning Studio in the Networking Super Center provides specialized programming where you can participate in studio talks, panel discussions and networking opportunities at the annual conference. The Networking Super Center is open to all ATS conference attendees.
+                  - generic [ref=e102]:
+                    - button "1 session" [ref=e104] [cursor=pointer]:
+                      - generic [ref=e105]: 1 session
+                      - img [ref=e107]
+                    - generic [ref=e517] [cursor=pointer]:
+                      - generic [ref=e518]:
+                        - generic [ref=e519]:
+                          - paragraph [ref=e520]: 7:00 AM – 8:00 AM
+                          - generic [ref=e521]: Learning Studio, Hall C (Level II, OCCC West)
+                        - button [ref=e523]:
+                          - img [ref=e525]
+                      - generic [ref=e528]:
+                        - 'heading "NSC22 The Learner in the Loop: How Artificial Intelligence Is Changing Pulmonary and Critical Care Education" [level=6] [ref=e529]'
+                        - paragraph [ref=e532]: Other Topics
+                        - paragraph [ref=e533]: Artificial intelligence is rapidly reshaping how pulmonary and critical care clinicians are trained, shifting education from standardized models toward adaptive, learner-centered approaches. This session explores how AI can individualize learning pathways, augment procedural training through real-time feedback, and redefine competency assessment. Faculty will also address critical considerations around psychological safety, equity, and learner agency in AI-enabled environments. Through practical examples and forward-looking insights, attendees will gain a framework for integrating AI into education while preserving the human elements essential to effective training and professional identity formation.
+                        - generic [ref=e535]:
+                          - paragraph [ref=e536]: Speakers
+                          - generic [ref=e538]: Laura Frye MD, Hassan K. Bencheqroun MD, Saadia A. Faiz MD, ATSF, FCCP
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - paragraph [ref=e113]: 7:00 AM – 8:30 AM
+                    - generic [ref=e114]:
+                      - heading "Meeting" [level=5] [ref=e115]
+                      - paragraph [ref=e117]: Meetings & Events highlight the gatherings that shape the conference’s collaborative and community-driven work. Explore key meetings, special events, and supplemental activities designed to foster dialogue, build partnerships, and enrich the attendee experience.
+                  - button "1 session" [ref=e120] [cursor=pointer]:
+                    - generic [ref=e121]: 1 session
+                    - img [ref=e123]
+            - generic [ref=e126]:
+              - paragraph [ref=e128]: 7 AM
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - paragraph [ref=e133]: 8:15 AM – 10:15 AM
+                    - generic [ref=e134]:
+                      - heading "Poster Discussion Session" [level=5] [ref=e135]
+                      - paragraph [ref=e137]: These half-day sessions (2 hours) are made of thematically-related abstracts which are programmed as poster presentations with a viewing and a discussion period.
+                  - button "10 sessions" [ref=e140] [cursor=pointer]:
+                    - generic [ref=e141]: 10 sessions
+                    - img [ref=e143]
+                - generic [ref=e146]:
+                  - generic [ref=e147]:
+                    - paragraph [ref=e149]: 8:15 AM – 10:15 AM
+                    - generic [ref=e150]:
+                      - heading "Mini Symposium" [level=5] [ref=e151]
+                      - paragraph [ref=e153]: These half-day sessions (2 hours) are made up of thematically-related abstracts presented as oral presentations.
+                  - button "8 sessions" [ref=e156] [cursor=pointer]:
+                    - generic [ref=e157]: 8 sessions
+                    - img [ref=e159]
+                - generic [ref=e162]:
+                  - generic [ref=e163]:
+                    - paragraph [ref=e165]: 8:15 AM – 9:45 AM
+                    - generic [ref=e166]:
+                      - heading "Critical Care Track" [level=5] [ref=e167]
+                      - paragraph [ref=e169]: Critical care medicine makes up about half of the clinical activities of the American Thoracic Society membership. Intensivists and other specialists who practice in the intensive care unit are drawn to our society because of its leadership in critical care practice, education, and scholarship.
+                  - button "1 session" [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173]: 1 session
+                    - img [ref=e175]
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - paragraph [ref=e181]: 8:15 AM – 9:45 AM
+                    - generic [ref=e182]:
+                      - heading "Scientific Symposium" [level=5] [ref=e183]
+                      - paragraph [ref=e185]: In-depth discussions on new findings, evolving science, and research-driven innovation.
+                  - button "5 sessions" [ref=e188] [cursor=pointer]:
+                    - generic [ref=e189]: 5 sessions
+                    - img [ref=e191]
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - paragraph [ref=e197]: 8:15 AM – 9:45 AM
+                    - generic [ref=e198]:
+                      - heading "Clinical Topics in Pulmonary Medicine" [level=5] [ref=e199]
+                      - paragraph [ref=e201]: In-depth discussions on current practice, evolving evidence, and clinical advances in pulmonary care.
+                  - button "2 sessions" [ref=e204] [cursor=pointer]:
+                    - generic [ref=e205]: 2 sessions
+                    - img [ref=e207]
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - paragraph [ref=e213]: 8:15 AM – 9:45 AM
+                    - generic [ref=e214]:
+                      - heading "Year in Review" [level=5] [ref=e215]
+                      - paragraph [ref=e217]: This program has been developed to include core topics in pulmonary, critical care, and sleep medicine. The goal of the session is to discuss critical state-of-the-art topics and evolving concepts. The learner will be exposed to a carefully curated review of the current literature by emerging leaders in the field. After the course, participants will better understand novel concepts in each specific domain that we hope will translate to improved patient care.
+                  - button "1 session" [ref=e220] [cursor=pointer]:
+                    - generic [ref=e221]: 1 session
+                    - img [ref=e223]
+            - generic [ref=e226]:
+              - paragraph [ref=e228]: 8 AM
+              - generic [ref=e230]:
+                - generic [ref=e231]:
+                  - paragraph [ref=e233]: 9:00 AM – 10:00 AM
+                  - generic [ref=e234]:
+                    - heading "Networking Super Center Learning Event" [level=5] [ref=e235]
+                    - paragraph [ref=e237]: The Learning Studio in the Networking Super Center provides specialized programming where you can participate in studio talks, panel discussions and networking opportunities at the annual conference. The Networking Super Center is open to all ATS conference attendees.
+                - button "1 session" [ref=e240] [cursor=pointer]:
+                  - generic [ref=e241]: 1 session
+                  - img [ref=e243]
+            - generic [ref=e246]:
+              - paragraph [ref=e248]: 9 AM
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - generic [ref=e251]:
+                    - paragraph [ref=e253]: 9:30 AM – 10:30 AM
+                    - generic [ref=e254]:
+                      - heading "Pediatric Clinical Core Curriculum" [level=5] [ref=e255]
+                      - paragraph [ref=e257]: The Pediatric Clinical Core Curriculum at the ATS 2026 International Conference is a three-part series designed to address timely care considerations using the latest clinical guidelines and investigative data.
+                  - button "1 session" [ref=e260] [cursor=pointer]:
+                    - generic [ref=e261]: 1 session
+                    - img [ref=e263]
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - paragraph [ref=e269]: 10:00 AM – 11:00 AM
+                    - generic [ref=e270]:
+                      - heading "Networking Super Center Learning Event" [level=5] [ref=e271]
+                      - paragraph [ref=e273]: The Learning Studio in the Networking Super Center provides specialized programming where you can participate in studio talks, panel discussions and networking opportunities at the annual conference. The Networking Super Center is open to all ATS conference attendees.
+                  - button "1 session" [ref=e276] [cursor=pointer]:
+                    - generic [ref=e277]: 1 session
+                    - img [ref=e279]
+            - generic [ref=e282]:
+              - paragraph [ref=e284]: 10 AM
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]:
+                    - paragraph [ref=e289]: 11:00 AM – 1:00 PM
+                    - generic [ref=e290]:
+                      - heading "Poster Discussion Session" [level=5] [ref=e291]
+                      - paragraph [ref=e293]: These half-day sessions (2 hours) are made of thematically-related abstracts which are programmed as poster presentations with a viewing and a discussion period.
+                  - button "10 sessions" [ref=e296] [cursor=pointer]:
+                    - generic [ref=e297]: 10 sessions
+                    - img [ref=e299]
+                - generic [ref=e302]:
+                  - generic [ref=e303]:
+                    - paragraph [ref=e305]: 11:00 AM – 1:00 PM
+                    - generic [ref=e306]:
+                      - heading "Mini Symposium" [level=5] [ref=e307]
+                      - paragraph [ref=e309]: These half-day sessions (2 hours) are made up of thematically-related abstracts presented as oral presentations.
+                  - button "7 sessions" [ref=e312] [cursor=pointer]:
+                    - generic [ref=e313]: 7 sessions
+                    - img [ref=e315]
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - paragraph [ref=e321]: 11:00 AM – 12:30 PM
+                    - generic [ref=e322]:
+                      - heading "Scientific Symposium" [level=5] [ref=e323]
+                      - paragraph [ref=e325]: In-depth discussions on new findings, evolving science, and research-driven innovation.
+                  - button "5 sessions" [ref=e328] [cursor=pointer]:
+                    - generic [ref=e329]: 5 sessions
+                    - img [ref=e331]
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - paragraph [ref=e337]: 11:00 AM – 12:30 PM
+                    - generic [ref=e338]:
+                      - heading "Critical Care Track" [level=5] [ref=e339]
+                      - paragraph [ref=e341]: Critical care medicine makes up about half of the clinical activities of the American Thoracic Society membership. Intensivists and other specialists who practice in the intensive care unit are drawn to our society because of its leadership in critical care practice, education, and scholarship.
+                  - button "1 session" [ref=e344] [cursor=pointer]:
+                    - generic [ref=e345]: 1 session
+                    - img [ref=e347]
+                - generic [ref=e350]:
+                  - generic [ref=e351]:
+                    - paragraph [ref=e353]: 11:00 AM – 12:30 PM
+                    - generic [ref=e354]:
+                      - heading "Adult Clinical Core Curriculum" [level=5] [ref=e355]
+                      - paragraph [ref=e357]: Comprehensive reviews covering essential concepts, foundational knowledge, and core clinical principles
+                  - button "1 session" [ref=e360] [cursor=pointer]:
+                    - generic [ref=e361]: 1 session
+                    - img [ref=e363]
+                - generic [ref=e366]:
+                  - generic [ref=e367]:
+                    - paragraph [ref=e369]: 11:00 AM – 12:00 PM
+                    - generic [ref=e370]:
+                      - heading "Networking Super Center Learning Event" [level=5] [ref=e371]
+                      - paragraph [ref=e373]: The Learning Studio in the Networking Super Center provides specialized programming where you can participate in studio talks, panel discussions and networking opportunities at the annual conference. The Networking Super Center is open to all ATS conference attendees.
+                  - button "1 session" [ref=e376] [cursor=pointer]:
+                    - generic [ref=e377]: 1 session
+                    - img [ref=e379]
+            - generic [ref=e382]:
+              - paragraph [ref=e384]: 11 AM
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]:
+                    - paragraph [ref=e389]: 12:00 PM – 1:00 PM
+                    - generic [ref=e390]:
+                      - heading "Mid-day Symposium" [level=5] [ref=e391]
+                      - paragraph [ref=e393]
+                  - button "5 sessions" [ref=e396] [cursor=pointer]:
+                    - generic [ref=e397]: 5 sessions
+                    - img [ref=e399]
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - paragraph [ref=e405]: 12:00 PM – 1:00 PM
+                    - generic [ref=e406]:
+                      - heading "Networking Super Center Learning Event" [level=5] [ref=e407]
+                      - paragraph [ref=e409]: The Learning Studio in the Networking Super Center provides specialized programming where you can participate in studio talks, panel discussions and networking opportunities at the annual conference. The Networking Super Center is open to all ATS conference attendees.
+                  - button "1 session" [ref=e412] [cursor=pointer]:
+                    - generic [ref=e413]: 1 session
+                    - img [ref=e415]
+          - button "Previous day" [ref=e420] [cursor=pointer]:
+            - img [ref=e422]
+            - generic [ref=e424]: Previous day
+  - generic [ref=e426]:
+    - generic [ref=e427]:
+      - generic [ref=e428]:
+        - paragraph [ref=e429]: Resources
+        - link "ATS Conference News" [ref=e430] [cursor=pointer]:
+          - /url: https://www.atsconferencenews.org/
+          - paragraph [ref=e431]: ATS Conference News
+        - link "ATS Research Program" [ref=e432] [cursor=pointer]:
+          - /url: https://research.thoracic.org/index.php
+          - paragraph [ref=e433]: ATS Research Program
+        - link "Conference Website" [ref=e434] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/
+          - paragraph [ref=e435]: Conference Website
+      - generic [ref=e436]:
+        - paragraph [ref=e437]: Important Links
+        - link "Register" [ref=e438] [cursor=pointer]:
+          - /url: https://site.thoracic.org/conference/attendees/register
+          - paragraph [ref=e439]: Register
+        - link "Become a Donor" [ref=e440] [cursor=pointer]:
+          - /url: https://research.thoracic.org/donate/index.php
+          - paragraph [ref=e441]: Become a Donor
+      - generic [ref=e442]:
+        - paragraph [ref=e443]: Legal
+        - link "Terms of Use" [ref=e444] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/terms-of-use
+          - paragraph [ref=e445]: Terms of Use
+        - link "Privacy Policy" [ref=e446] [cursor=pointer]:
+          - /url: https://www.thoracic.org/privacy-policy.php
+          - paragraph [ref=e447]: Privacy Policy
+        - link "Code of Conduct" [ref=e448] [cursor=pointer]:
+          - /url: https://conference.thoracic.org/attendees/code-of-conduct.php
+          - paragraph [ref=e449]: Code of Conduct
+        - link "Cookie Policy" [ref=e450] [cursor=pointer]:
+          - /url: https://site.thoracic.org/about-us/leadership-governance/privacy-policy#use-of-cookies
+          - paragraph [ref=e451]: Cookie Policy
+      - generic [ref=e453]:
+        - link [ref=e454] [cursor=pointer]:
+          - /url: https://twitter.com/atscommunity
+          - img [ref=e457]
+        - link [ref=e459] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/american-thoracic-society_2/
+          - img [ref=e462]
+        - link [ref=e464] [cursor=pointer]:
+          - /url: https://www.instagram.com/atscommunity/
+          - img [ref=e467]
+        - link [ref=e469] [cursor=pointer]:
+          - /url: https://www.facebook.com/americanthoracic
+          - img [ref=e472]
+        - link [ref=e474] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCzbly6r1MKUnO0KfrD__yqg
+          - img [ref=e477]
+    - generic [ref=e480]: Powered by Sherpa · All rights reserved © 2026

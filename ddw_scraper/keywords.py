@@ -27,6 +27,21 @@ from ddw_scraper import config
 COLUMNS = ["Indication", "Company", "Product Name", "MOA"]
 
 # ---------------------------------------------------------------------------
+# Unicode normalisation
+# ---------------------------------------------------------------------------
+
+# Map typographic / smart quotes to their plain ASCII equivalents so that
+# keywords and scraped text are compared on a level playing field.
+_UNICODE_NORMALIZE = str.maketrans({
+    "\u2019": "'",   # RIGHT SINGLE QUOTATION MARK  →  apostrophe
+    "\u2018": "'",   # LEFT SINGLE QUOTATION MARK   →  apostrophe
+    "\u201c": '"',   # LEFT DOUBLE QUOTATION MARK   →  quote
+    "\u201d": '"',   # RIGHT DOUBLE QUOTATION MARK  →  quote
+    "\u2013": "-",   # EN DASH                       →  hyphen
+    "\u2014": "-",   # EM DASH                       →  hyphen
+})
+
+# ---------------------------------------------------------------------------
 # Per-keyword matching overrides
 # ---------------------------------------------------------------------------
 
@@ -53,6 +68,10 @@ def load_keywords(path=None) -> dict[str, list[str]]:
 
     Returns a dict ``{column_name: [keyword, ...]}``.  The first header row
     is skipped; ``None`` cells and blank strings are ignored.
+
+    Typographic characters (curly apostrophes, en/em dashes) in keyword
+    cells are normalised to plain ASCII equivalents so that patterns compiled
+    from them can match the normalised scraped text.
     """
     path = Path(path or config.KEYWORDS_FILE)
     wb = openpyxl.load_workbook(path, data_only=True)
@@ -64,7 +83,7 @@ def load_keywords(path=None) -> dict[str, list[str]]:
         for col_idx, col_name in enumerate(COLUMNS):
             raw = row[col_idx] if col_idx < len(row) else None
             if raw is not None:
-                keyword = str(raw).strip()
+                keyword = str(raw).strip().translate(_UNICODE_NORMALIZE)
                 if keyword:
                     keyword_map[col_name].append(keyword)
 
@@ -116,6 +135,26 @@ def build_patterns(
 # Matching
 # ---------------------------------------------------------------------------
 
+def _deduplicate_substrings(matched: list[str]) -> list[str]:
+    """Remove any keyword that is a case-insensitive substring of another
+    matched keyword in the same column.
+
+    Example: if both ``"Inflammatory Bowel Disease"`` and
+    ``"Inflammatory Bowel Diseases"`` matched, the shorter one is suppressed
+    because it is contained within the longer match.
+    """
+    if len(matched) <= 1:
+        return matched
+    lowered = [k.lower() for k in matched]
+    return [
+        kw for i, kw in enumerate(matched)
+        if not any(
+            lowered[i] in lowered[j]
+            for j in range(len(matched)) if j != i
+        )
+    ]
+
+
 def match_keywords(
     text_fields: list[str],
     patterns: dict[str, list[tuple[str, re.Pattern]]],
@@ -126,12 +165,24 @@ def match_keywords(
     They are joined into one combined string before matching so a keyword
     only needs to appear in any field to be considered a match.
 
+    Typographic characters in the text are normalised to plain ASCII before
+    matching (e.g. curly apostrophe U+2019 → straight apostrophe) so that
+    scraped content from the website is compared fairly against keywords.
+
+    Matched keywords within the same column are deduplicated: if keyword A
+    is a substring of keyword B and both matched, only B is kept (e.g.
+    ``"Inflammatory Bowel Disease"`` is suppressed when
+    ``"Inflammatory Bowel Diseases"`` also matched the same text).
+
     Returns ``{column_name: comma_separated_matched_keywords}``.
     Columns with no matches contain an empty string.
     """
-    combined = " ".join(f for f in text_fields if f)
+    combined = " ".join(
+        f.translate(_UNICODE_NORMALIZE) for f in text_fields if f
+    )
     result: dict[str, str] = {}
     for col, kw_patterns in patterns.items():
         matched = [kw for kw, pat in kw_patterns if pat.search(combined)]
+        matched = _deduplicate_substrings(matched)
         result[col] = ", ".join(matched)
     return result
